@@ -1,0 +1,74 @@
+
+    body{
+    background-image: url("light.jpg");
+    background-size: cover;
+    }
+    .container{
+        margin: auto;
+        padding: 10px;
+        width: 450px;}
+    ul{
+        font-size: 14px;
+        list-style: none;
+        
+    }
+ li{
+        margin-top: 5px;
+        background-color: orange;
+        padding: 5px 0px 5px 10px;
+        font-size: 18px;
+        
+    }
+    .done text{
+        text-decoration:line-through;
+        color: rgb(19, 18, 18);
+        opacity: 0.4;
+        transition: 0.5s;
+    }
+    .fa {
+        position: relative;
+        top: -5px;
+        color:rgb(245, 250, 245);
+        float: right;
+        background-color: rgb(240, 49, 49);
+        padding: 6px;
+    }
+    .fa-check{
+        color: white;
+        background-color: rgb(9, 146, 9);
+    }
+    .add-element{
+     /* margin-left: 34em;
+     margin-top:10em;; */
+     background-color: lightgoldenrodyellow;
+     width:100%;
+     padding: 10px;
+     border-radius: 30px;
+    }
+    h1{
+        text-align: center;
+        font-family:Arial;
+        font-size: 25px;
+        color: gray;
+       }
+    .element-list{
+        width: 350px;
+        /* margin: 2rem 15rem 0rem 0rem; */
+    }
+    input{
+        outline-style: none;
+        border: none;
+        border-radius: 30px;
+        padding: 10px;
+        background-color: lightyellow;
+        width: 300px;
+    }
+    #btn, #Clear-all {
+        border: none;
+        outline-style: none;
+        background-color: rgb(235, 235, 230);
+        padding: 10px;
+        border-radius: 30px;
+        float: right;
+    }
+
