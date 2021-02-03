@@ -1,12 +1,12 @@
-
-    body{
+   body{
     background-image: url("light.jpg");
     background-size: cover;
     }
     .container{
         margin: auto;
         padding: 10px;
-        width: 450px;}
+        width: 450px;
+    }
     ul{
         font-size: 14px;
         list-style: none;
@@ -27,7 +27,7 @@
     }
     .fa {
         position: relative;
-        top: -5px;
+        top: -4px;
         color:rgb(245, 250, 245);
         float: right;
         background-color: rgb(240, 49, 49);
@@ -70,5 +70,81 @@
         padding: 10px;
         border-radius: 30px;
         float: right;
+    }
+   
+    /* Device friendly */
+
+    @media only screen and (max-width: 500px){
+        body{
+            background-color: black;
+            }
+            .container{
+                margin: auto;
+                padding: 10px;
+                width: 350px;
+                display: block;
+            }
+            ul{
+                font-size: 14px;
+                list-style: none;
+                
+            }
+         li{
+                margin-top: 5px;
+                background-color: orange;
+                padding: 5px 0px 5px 10px;
+                font-size: 18px;
+                
+            }
+            .done text{
+                text-decoration:line-through;
+                color: rgb(19, 18, 18);
+                opacity: 0.4;
+                transition: 0.5s;
+            }
+            .fa {
+                position: relative;
+                top: -4px;
+                color:rgb(245, 250, 245);
+                float: right;
+                background-color: rgb(240, 49, 49);
+                padding: 6px;
+            }
+            .fa-check{
+                color: white;
+                background-color: rgb(9, 146, 9);
+            }
+            .add-element{
+             background-color: lightgoldenrodyellow;
+             width:60%;
+             padding: 10px;
+             border-radius: 30px;
+            }
+            h1{
+                text-align: center;
+                font-family:Arial;
+                font-size: 18px;
+                color: rgb(250, 168, 100);
+               }
+            .element-list{
+                width: 350px;
+                /* margin: 2rem 15rem 0rem 0rem; */
+            }
+            input{
+                outline-style: none;
+                border: none;
+                border-radius: 30px;
+                margin: 0px;
+                padding: 10px;
+                background-color: lightyellow;
+                width: 150px;
+            }
+            #btn, #Clear-all {
+                border: none;
+                outline-style: none;
+                background-color: rgb(235, 235, 230);
+                padding: 6px;
+                border-radius: 30px;
+            }
     }
 
