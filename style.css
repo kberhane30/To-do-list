@@ -1,5 +1,6 @@
    body{
-    background-image: url("light.jpg");
+    /* background-image: url("light.jpg"); */
+    background-color: black;
     background-size: cover;
     }
     .container{
@@ -76,10 +77,9 @@
 
     @media only screen and (max-width: 500px){
         body{
-            background-color: black;
+            background-color: brown;
             }
             .container{
-                margin: auto;
                 padding: 10px;
                 width: 350px;
                 display: block;
@@ -99,7 +99,7 @@
             .done text{
                 text-decoration:line-through;
                 color: rgb(19, 18, 18);
-                opacity: 0.4;
+                opacity: 0.5;
                 transition: 0.5s;
             }
             .fa {
@@ -115,8 +115,9 @@
                 background-color: rgb(9, 146, 9);
             }
             .add-element{
+             margin: auto;
              background-color: lightgoldenrodyellow;
-             width:60%;
+             width:80%;
              padding: 10px;
              border-radius: 30px;
             }
@@ -127,7 +128,8 @@
                 color: rgb(250, 168, 100);
                }
             .element-list{
-                width: 350px;
+                width: 300px;
+                margin-top: 3em;
                 /* margin: 2rem 15rem 0rem 0rem; */
             }
             input{
@@ -137,14 +139,18 @@
                 margin: 0px;
                 padding: 10px;
                 background-color: lightyellow;
-                width: 150px;
+                width: 200px;
             }
             #btn, #Clear-all {
+                position: relative;
+                top: 14px;
+                margin-right: 5px;
                 border: none;
                 outline-style: none;
                 background-color: rgb(235, 235, 230);
                 padding: 6px;
-                border-radius: 30px;
+                border-radius: 10px;
+                float: right;
             }
     }
 
